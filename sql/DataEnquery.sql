@@ -1,6 +1,8 @@
 USE customer_analytics;
 SELECT COUNT(*) FROM customers;
 DESCRIBE customers;
+
+
 -- Customer Value Distribution
 SELECT
     `Customer Value Tier`,
